@@ -396,3 +396,43 @@ build.dart --machine --changed=web/vistas/loginUI.html
 
 build.dart finished [1202 ms]
 
+---
+build.dart --machine --changed=web/clases/login.dart
+
+build.dart finished [1214 ms]
+
+---
+build.dart --machine --changed=web/clases/login.dart
+
+build.dart finished [1157 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.dart
+
+build.dart finished [1146 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.dart
+
+build.dart finished [1144 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.dart
+
+build.dart finished [1146 ms]
+
+---
+build.dart --machine --changed=web/clases/login.dart
+
+build.dart finished [1156 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.dart
+
+build.dart finished [1202 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.dart
+
+build.dart finished [1152 ms]
+

@@ -1,7 +1,6 @@
 import 'package:polymer/polymer.dart';
-/**
- * A Polymer click counter element.
- */
+import '../clases/login.dart';
+
 @CustomTag('login-ui')
 class loginUI extends PolymerElement {
   @observable String usuario;
@@ -12,8 +11,11 @@ class loginUI extends PolymerElement {
   
   void entrar()
   {
-    //buscar datos en base de datos :)
-    print("ha entrado con normalidad");
+    Login loguearse=new Login.par(usuario,password);
+    if(loguearse.conectar()==true)
+      print("ha entrado con normalidad");
+    else
+      print("fallo de login");
 
   }
 
