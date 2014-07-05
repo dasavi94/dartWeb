@@ -28,3 +28,87 @@ build.dart --machine --changed=pubspec.lock
 
 build.dart finished [1103 ms]
 
+---
+build.dart --machine --changed=web/main.html
+
+build.dart finished [1096 ms]
+
+---
+build.dart --machine --changed=web/css/main.css --removed=web/main.css
+
+build.dart finished [1089 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1087 ms]
+
+---
+build.dart --machine --changed=web/loginUI.dart --removed=web/clickcounter.dart
+
+build.dart finished [1085 ms]
+
+---
+build.dart --machine --changed=web/loginUI.html --removed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/main.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"main\".","line":11,"charStart":339,"charEnd":383}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":701,"charEnd":726}}]
+build.dart finished [1084 ms]
+
+---
+build.dart --machine --changed=web/loginUI.html
+[{"method":"warning","params":{"file":"web/main.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"main\".","line":11,"charStart":339,"charEnd":383}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":701,"charEnd":726}}]
+build.dart finished [1081 ms]
+
+---
+build.dart --machine --changed=web/main.html
+
+build.dart finished [1084 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.dart --removed=web/loginUI.dart
+
+build.dart finished [1100 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.html --removed=web/loginUI.html
+[{"method":"warning","params":{"file":"web/main.html","message":"couldn't find imported asset \"web/loginUI.html\" in package \"main\".","line":11,"charStart":339,"charEnd":378}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":696,"charEnd":721}}]
+build.dart finished [1108 ms]
+
+---
+build.dart --machine --changed=web/main.html
+
+build.dart finished [1093 ms]
+
+---
+build.dart --machine --changed=web/main.html
+
+build.dart finished [1076 ms]
+
+---
+build.dart --machine --changed=web/main.html
+
+build.dart finished [1150 ms]
+
+---
+build.dart --machine --changed=web/loginUI.html --removed=web/vistas/loginUI.html
+[{"method":"warning","params":{"file":"web/main.html","message":"couldn't find imported asset \"web/vistas/loginUI.html\" in package \"main\".","line":11,"charStart":336,"charEnd":382}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":704,"charEnd":729}}]
+build.dart finished [1081 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.html --removed=web/loginUI.html
+
+build.dart finished [1103 ms]
+
+---
+build.dart --machine --changed=web/vistas/loginUI.dart
+
+build.dart finished [1112 ms]
+
+---
+build.dart --machine --changed=web/main.html
+
+build.dart finished [1112 ms]
+
